@@ -1,0 +1,86 @@
+/*font-family: 'Abril Fatface', cursive;*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+
+/*GENERAL*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  background-color: rgb(230,230,230);
+  color:rgb(100,100,100) ;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+  font-size: 35px;
+  color: #070068;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  color:rgb(80,80,80) ;
+}
+
+tr > td > h3 {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: lighter;
+}
+
+a {
+  color: #070068;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(120,120,120);
+}
+
+/*CLASS*/
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.card {
+  border-spacing: 200px;
+  background-color: rgb(250,250, 250);
+  border-radius: 0.5%;
+  margin: 20px;
+  padding: 25px 15px 15px ;
+  box-shadow: 1px 1px 2px rgb(210,210, 210);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 20px;
+
+  font-size: 20px;
+}
+
+
+/*ID*/
+#md-img-circle {
+  border-radius: 50%;
+  width: 225px;
+  height: 300px;
+}
+
+
+#logo-font {
+  font-size: 30px;
+}
+
+
+/*MORE SPECIFIC*/
